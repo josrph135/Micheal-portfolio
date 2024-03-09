@@ -17,10 +17,10 @@ const Skill = () => {
   return (
     <section
       id="skills"
-      className="px-4 md:px-10 py-4  flex flex-col justify-start scroll-mt-16"
+      className="px-4 md:px-10 py-8  flex flex-col justify-start scroll-mt-16 "
     >
       <div className="h-fit my-auto">
-        <h4 className="text-black font-semibold pb-2 sm:pb-4 header text-sm">
+        <h4 className="text-black font-semibold text-lg md:text-xl duration-200 pb-2 md:pb-6 header">
           My Skill
         </h4>
         {skills.map((skill, i) => {

@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="px-4 md:px-10 items-center mb-10 duration-200 pt-16 sm:pt-20 md:pt-32 gap-4 flex justify-center h-fit sm:flex-row flex-col"
+      className="px-4 md:px-10 items-center mb-10 duration-200 pt-16 sm:pt-20 md:pt-24 gap-4 flex justify-center h-fit sm:flex-row flex-col"
     >
-      <article className="flex sm:w-2/5 duration-200 pt-4 flex-col">
+      <article className="flex sm:w-3/5 duration-200 pt-4 sm:pt-0 flex-col">
         <h4 className="px-2 md:px-4 duration-200 py-1 text-[10px] sm:text-sm md:text-base font-semibold w-fit text-white bg-black rounded-md">
           Hello Everyone
         </h4>
@@ -22,7 +22,7 @@ const Home = () => {
           solutions.
         </p>
       </article>
-      <section className="w-2/3  sm:w-3/5 duration-200 rounded-md">
+      <section className="w-2/3  sm:w-2/5 duration-200 rounded-md">
         <img src={mike} alt="" className=" md:w-4/5 rounded-xl m-auto " />
       </section>
     </section>

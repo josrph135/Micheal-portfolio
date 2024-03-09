@@ -18,7 +18,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-black flex justify-center items-center px-10 py-8 text-white"
+      className="bg-black flex justify-center scroll-mt-16 items-center px-10 py-8 text-white"
     >
       <div className="h-fit my-auto">
         <h4 className="font-semibold text-lg md:text-xl duration-200 pb-2 md:pb-6 header">

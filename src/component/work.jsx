@@ -27,9 +27,11 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="w-full scroll-mt-16 bg-black px-4 md:px-10 py-2"
+      className="w-full scroll-mt-16 bg-black px-4 md:px-10 py-8"
     >
-      <h4 className="text-white pb-8 text-sm header">Featured Work</h4>
+      <h4 className="text-white font-semibold text-lg md:text-xl duration-200 pb-2 md:pb-6 header">
+        Featured Work
+      </h4>
       <section className="flex flex-col gap-4">
         {project.map((proj, i) => {
           return (
