@@ -3,6 +3,8 @@ import Home from "./home";
 import Work from "./work";
 import Skill from "./skill";
 import About from "./about";
+import Contact from "./Contact";
+import Footer from "./footer";
 
 const Main = () => {
   return (
@@ -12,6 +14,8 @@ const Main = () => {
       <Work />
       <Skill />
       <About />
+      <Contact />
+      <Footer />
     </div>
   );
 };
