@@ -8,7 +8,7 @@ import Footer from "./footer";
 
 const Main = () => {
   return (
-    <div className="bg-white min-w-[320px]">
+    <div className="bg-white min-w-[320px] scroll-smooth">
       <Header />
       <Home />
       <Work />

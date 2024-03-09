@@ -54,7 +54,7 @@ const Work = () => {
                 <div className="sm:pt-4 pt-2">
                   <a
                     target="blank"
-                    className="bg-black text-red-300 text-[8px] sm:text-sm px-2 sm:px-4 duration-200 flex-row flex w-fit gap-2 items-center py-[5px] rounded"
+                    className="bg-black text-teal-500 text-[8px] sm:text-sm px-2 sm:px-4 duration-200 flex-row flex w-fit gap-2 items-center py-[5px] rounded"
                     href={proj.link}
                   >
                     <span>View My Work</span>

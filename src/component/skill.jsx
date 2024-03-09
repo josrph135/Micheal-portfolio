@@ -26,7 +26,7 @@ const Skill = () => {
         {skills.map((skill, i) => {
           return (
             <div key={i} className="flex items-center flex-row gap-3 ">
-              <span className="pt-2 text-red-600 text-xs">
+              <span className="pt-2 text-teal-500 text-xs">
                 <GoDot />
               </span>
               <p className="text" key={i}>
