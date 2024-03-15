@@ -2,13 +2,13 @@ import React from "react";
 
 const about = (
   <p>
-    I'm currently a diploma student at Allschool Africa. My design journey
+    I'm currently a diploma student at Alschool Africa. My design journey
     started about few months ago. driven by a passion for creating engaging
     digital experiences. With a background in communication, i bring a unique
     perspective to design. From wireframing to prototyping. I find joy in
     turning ideas into user-centric solutions. As i navigate the challenges of
     design, each project becomes an opportunity for growth and collaboration.
-    <br /> Currently immersed in my studies at Allschool Africa, i'm horing my
+    <br /> Currently immersed in my studies at Alschool Africa, i'm horing my
     skills and gaining valuable insights into the ever-evolving world of design.
     Beyond the pixels, i'm driven by the belief that thoughtful design has the
     power to transform and enhance the way we interact with technology.

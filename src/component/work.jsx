@@ -36,10 +36,10 @@ const Work = () => {
         {project.map((proj, i) => {
           return (
             <article
-              className="bg-white  hover:scale-105 duration-150  flex sm:flex-row flex-col rounded-lg text-black"
+              className="bg-white hover:scale-105 duration-150  flex sm:flex-row flex-col rounded-lg text-black"
               key={i}
             >
-              <div className="px-4 sm:px-10 sm:w-3/5 my-auto py-2 sm:py-4 md:py-8 duration-200">
+              <div className="px-4 group sm:px-10 sm:w-3/5 my-auto py-2 sm:py-4 md:py-8 duration-200">
                 <h4 className="font-semibold header text-sm pb-2">
                   {proj.title}
                 </h4>
@@ -57,8 +57,8 @@ const Work = () => {
                     className="bg-black text-teal-500 text-[8px] sm:text-sm px-2 sm:px-4 duration-200 flex-row flex w-fit gap-2 items-center py-[5px] rounded"
                     href={proj.link}
                   >
-                    <span>View My Work</span>
-                    <span className="text-sm">
+                    <span>View Project</span>
+                    <span className="text-sm group-hover:text-yellow-400">
                       <FaArrowCircleRight />
                     </span>
                   </a>

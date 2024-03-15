@@ -29,7 +29,7 @@ const Contact = () => {
             I'm available for work and open to any ideas of cooperation.
           </p>
           <form
-            action="https://getform.io/f/0e78ef00-9981-49bd-ae32-63dd74b73f15"
+            action="https://getform.io/f/pbgkxzkb"
             method="POST"
             encType="multipart/form-data"
             className="sm:w-1/2 mx-auto text-white sm:mt-4 grid sm:grid-cols-2 gap-2 sm:gap-4 w-full text-xs md:text-sm"
