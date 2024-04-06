@@ -20,7 +20,7 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className="bg-black md:px-8 sm:px-4 px-2  min-h-[100vh] scroll-mt-6 pb-8"
+      className=" md:px-8 sm:px-4 px-2  min-h-[100vh] scroll-mt-6 pb-8"
     >
       {/* Projects section */}
       <section>

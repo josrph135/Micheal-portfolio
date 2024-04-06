@@ -7,7 +7,7 @@ const Header = () => {
       {/* *****mobile nav****** */}
       <div
         onClick={() => setShow(!show)}
-        className="float-right z-[100] w-[50px] flex justify-center relative cursor-pointer items-center p-2 rounded-full h-[50px] bg-yellow-300/10 "
+        className="ml-auto z-[100] w-[50px] flex justify-center relative cursor-pointer items-center p-1 rounded-full h-[50px] bg-black/80 "
       >
         <div className="absolute top-1 ">
           {show ? (

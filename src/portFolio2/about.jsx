@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="bg-black md:px-8 sm:px-4 px-2 flex flex-col gap-10 scroll-mt-6  min-h-screen"
+      className="md:px-8 sm:px-4 px-2 flex flex-col gap-10 scroll-mt-6  min-h-screen"
     >
       {/* About section */}
       <section className="md:w-[90%] lg:w-4/5 flex flex-col gap-4">

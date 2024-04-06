@@ -22,11 +22,11 @@ const Main = () => {
 
   return (
     <>
-      <div className="scroll-smooth duration-300 ease-linear bg-black h-full w-screen transition font-sans">
+      <div className="scroll-smooth duration-300 ease-linear bg-black h-full max-w-screen transition overflow-x-hidden font-sans">
         <Header />
-        <main className="w-screen h-full bg-black flex flex-row">
+        <main className="w-fit h-full overflow-x-hidden flex flex-row">
           <Sidebar />
-          <section className="bg-[#333435] md:ml-[180px] min-h-[100vh] px-2 pb-4 w-fit">
+          <section className="bg-[#333435] md:pl-48 min-h-[100vh] px-2 pb-4 w-fit">
             <Home />
             <About />
             <Project />

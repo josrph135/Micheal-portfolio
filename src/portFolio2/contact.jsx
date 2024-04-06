@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div
       id="contacts"
-      className="bg-black md:px-8 sm:px-4 px-2 flex flex-col gap-2 scroll-mt-6 min-h-[100vh]"
+      className="md:px-8 sm:px-4 px-2 flex flex-col gap-2 scroll-mt-6 mb-8 min-h-[100vh]"
     >
       <section>
         <h2 className=" text-[40px] md:text-[50px] sm:text-[38px] sm:font-[750px] lg:text-[60px] lg:font-[800] duration-200 font-[650] whitespace-nowrap md:tracking-wide leading-[70px] md:leading-[90px] text-primary text-start">
@@ -20,7 +20,7 @@ const Contact = () => {
         className="mx-auto text-white gap-2 sm:gap-2 w-full flex justify-center items-start flex-col text-xs md:text-sm"
       >
         <div className=" flex md:flex-row flex-wrap w-full">
-          <section className=" flex flex-col justify-center  w-[320px] sm:w-2/3 lg:w-1/2 gap-2">
+          <section className=" flex flex-col justify-center  w-[280px] sm:w-2/3 lg:w-1/2 gap-2">
             <div className="relative w-full pt-5">
               <input
                 className="peer bg-white/30 w-full placeholder:text-transparent outline-none border sm:text-base text-sm rounded-lg pl-2 py-1 flex border-primary"
@@ -84,8 +84,8 @@ const Contact = () => {
             </div>
           </section>
         </div>
-        <div className=" flex flex-row w-1/2 justify-center items-center">
-          <button className=" bg-gradient-to-r from-primary to-black hover:from-black duration-300 transition-all ease-linear mt-4 w-fit text-center text-[20px] font-semibold hover:to-primary rounded px-4 py-2 whitespace-nowrap">
+        <div className=" flex flex-row w-1/2 justify-center mx-auto items-center">
+          <button className=" bg-gradient-to-r from-primary to-yellow-600 hover:from-yellow-600 duration-300 transition-all ease-linear mt-2 w-fit text-center text-[20px] font-semibold hover:to-primary rounded px-4 py-2 whitespace-nowrap">
             Send Message
           </button>
         </div>
