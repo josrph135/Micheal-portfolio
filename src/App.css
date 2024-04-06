@@ -5,19 +5,19 @@
 }
 
 .outer-circle {
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 120px;
   margin: 0 0 0 7px;
   border-radius: 50%;
-  padding: 20px;
-  background-color: black;
-  box-shadow: -6px -6px 10px -1px rgba(255, 255, 255, 0.7),
+  padding: 16px;
+  background-color: green;
+  box-shadow: -5px -5px 10px -1px rgba(255, 255, 255, 0.7),
     6px 6px 10px -1px rgba(0, 0, 0, 0.15);
 }
 
 .inner-circle {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   background-color: white;
   box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),

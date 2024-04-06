@@ -1,5 +1,5 @@
 import React from "react";
-import mike from "../assets/papa.jpg";
+import mike from "../assets/demola.jpg";
 const Home = () => {
   return (
     <section

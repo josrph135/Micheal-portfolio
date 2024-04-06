@@ -42,20 +42,20 @@ const Svg = ({ percent }) => {
       >
         <defs>
           <linearGradient id="GradientColor">
-            <stop offset="0%" stopColor="#e91e63" />
-            <stop offset="100%" stopColor="#673ab7" />
+            <stop offset="0%" stopColor="#28a096" />
+            <stop offset="100%" stopColor="#cea125" />
           </linearGradient>
         </defs>
 
         <circle
           style={circleStyle}
-          cx="80"
-          cy="80"
-          r="62"
+          cx="69"
+          cy="69"
+          r="52"
           strokeLinecap="round"
           stroke="url(#GradientColor)"
-          strokeDasharray="360"
-          strokeWidth="22px"
+          strokeDasharray="310"
+          strokeWidth="20px"
           fill="none"
         />
       </svg>
