@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
       </section>
       <form
-        action="https://getform.io/f/pbgkxzkb"
+        action="https://getform.io/f/nadoggmb"
         method="POST"
         encType="multipart/form-data"
         className="mx-auto text-white gap-2 sm:gap-2 w-full flex justify-center items-start flex-col text-xs md:text-sm"
