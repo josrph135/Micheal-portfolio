@@ -14,9 +14,8 @@ const Contact = () => {
         </p>
       </section>
       <form
-        action="https://getform.io/f/nadoggmb"
+        action="https://getform.io/f/pboxoqwa"
         method="POST"
-        encType="multipart/form-data"
         className="mx-auto text-white gap-2 sm:gap-2 w-full flex justify-center items-start flex-col text-xs md:text-sm"
       >
         <div className=" flex md:flex-row flex-wrap w-full">
@@ -85,7 +84,10 @@ const Contact = () => {
           </section>
         </div>
         <div className=" flex flex-row w-1/2 justify-center mx-auto items-center">
-          <button className=" bg-gradient-to-r from-primary to-yellow-600 hover:from-yellow-600 duration-300 transition-all ease-linear mt-2 w-fit text-center text-[20px] font-semibold hover:to-primary rounded px-4 py-2 whitespace-nowrap">
+          <button
+            type="submit"
+            className=" bg-gradient-to-r from-primary to-yellow-600 hover:from-yellow-600 duration-300 transition-all ease-linear mt-2 w-fit text-center text-[20px] font-semibold hover:to-primary rounded px-4 py-2 whitespace-nowrap"
+          >
             Send Message
           </button>
         </div>

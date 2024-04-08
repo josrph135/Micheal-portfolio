@@ -56,7 +56,7 @@ const Project = () => {
             }}
           >
             {/* Project content */}
-            <a href={`#${project.link}`}>
+            <a href={`${project.link}`}>
               <div
                 className={`w-full h-full bg-black/50 absolute translate-x-[100%] opacity-0 group-hover:translate-x-0 group-hover:opacity-100  duration-500 rounded-[8px]`}
               >
